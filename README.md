@@ -1,2 +1,1 @@
-# peacock
-website
+This is the toucan prject git
