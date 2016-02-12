@@ -1,0 +1,28 @@
+@keyframes green-1 {
+	0% 		{background-color:#9ad27c; }
+    33%		{background-color:#6cbf72; }
+    66%		{background-color:#8ca358; }
+	100% 	{background-color:#9ad27c; }
+}
+@keyframes green-2 {
+	0% 		{background-color:#6cbf72; }
+    33%		{background-color:#8ca358; }
+    66%		{background-color:#9ad27c; }
+	100% 	{background-color:#6cbf72; }
+}
+@keyframes green-3 {
+	0% 		{background-color:#8ca358; }
+    33%		{background-color:#9ad27c; }
+    66%		{background-color:#6cbf72; }
+	100% 	{background-color:#8ca358; }
+}
+@keyframes wiggle {
+	0%		{-ms-transform: rotate(0deg)}
+	25%		{-ms-transform: rotate(5deg)}				
+	50%		{-ms-transform: rotate(0deg)}				
+	75%		{-ms-transform: rotate(-5deg)}
+	100%	{-ms-transform: rotate(0deg)}
+}
+
+
+
