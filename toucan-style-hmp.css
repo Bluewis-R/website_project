@@ -1,0 +1,117 @@
+html {
+	overflow-y:auto;		/*Should be "hidden" - Doesn't really work on laptops*/
+}
+html, body {
+	font-family: Tahoma, serif;
+	margin:0;
+	padding:0;
+}
+.frame-1 {
+	animation-name:green-1;
+	animation-duration:7s;
+	animation-iteration-count:infinite;
+}
+.frame-2 {
+	animation-name:green-2;
+	animation-duration:7s;
+	animation-iteration-count:infinite;
+}
+.frame-3 {
+	animation-name:green-3;
+	animation-duration:7s;
+	animation-iteration-count:infinite;
+}
+.hmp-art-1 {
+	background-color:#63b8ff;
+	position:relative;
+	height:33.333%;
+	width:100%;
+}
+.hmp-art-2  {
+	height:33.333%;
+	width:100%;
+}
+.hmp-art-3 {
+	height:33.333%;
+	width:100%;
+	background-color:#008b8b;
+}
+ul#nav {
+	border:1px;
+	border-radius:35px;
+	position:absolute;
+	left:12.5%;
+    top:0;
+	padding:5px;
+	margin:auto;
+	margin-top:20px;
+	width:75%;
+	list-style-type:none;
+	background-color:darkgreen;
+}
+ul#nav li {
+	padding:4;
+	background-color:darkgreen;
+	border:1px;
+	border-radius:35px;
+	color:#ffffff;
+	margin-right:8%;
+	text-align:center;
+	display:inline-block;
+	font-family: ‘Courier New’, Courier, monospace;
+	font-size:40px;
+}
+ul#nav li:last-child {
+	margin-right:0%;
+}
+#nav li:hover {
+	animation-name:green-1 ,wiggle;
+	animation-duration:7s, 3s;
+	animation-iteration-count:infinite, 1;
+	border:1px;
+	border-radius:35px;
+	background-color:red;
+	cursor:pointer;
+}
+.hmp-art-2 {
+	text-align:center;
+	background-color:#009acd;
+}
+.jumbo {
+	position: fixed;
+	height:60%;
+	width:75%;
+	border:1px;
+	border-radius:35px;
+	left:12.5%;
+	top:25%;
+}
+.grades-center {
+	display:none;
+	background-color:darkgreen;
+}
+.coding-center {
+	display:none;
+	background-color:darkred;
+}
+.volunteering-center {
+	display:none;
+	background-color:#adadad;
+}
+.contact-center {
+	display:none;
+	background-color:orange;
+}
+
+
+
+
+
+
+/*
+.hmp-art-4, .hmp-art-5, .hmp-art-6 {
+	background-color:red;
+	height:33.333%;
+	width:100%;
+}
+*/
