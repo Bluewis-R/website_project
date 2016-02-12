@@ -1,5 +1,67 @@
 <html>
-  <body>
-    <h3>hello world</h3>
-  </body>
+	<head>
+		<title>Toucan | Home</title>
+		<link rel="icon" type="image/png" href="http://cdn.portableapps.com/Toucan_128.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!--Because sass is hard-->
+		<link rel="stylesheet" type="text/css" href="E:\Webdevelopment\project-toucan\css\toucan-style-hmp.css"/>
+		<link rel="stylesheet" type="text/css" href="E:\Webdevelopment\project-toucan\css\toucan-style-keyframes.css"/>
+		<link rel="stylesheet" type="text/css" href="E:\Webdevelopment\project-toucan\css\toucan-style-fonts.css"/>
+		<script>
+				$(document).ready(function(){
+					$(".grades").click(function(){
+						$(".menu").css("background-color", "darkgreen");
+						$(".jumbo").not($( ".grades-center" )).css("display", "none");
+						$(".grades").css("background-color", "#209c5c");
+						$(".grades-center").fadeIn(500, function(){
+							$(".grades-center").css("display", "inline-block");
+						});
+					});
+					$(".coding").click(function(){
+						$(".menu").css("background-color", "darkgreen");
+						$(".jumbo").not($( ".coding-center" )).css("display", "none");
+						$(".coding").css("background-color", "#209c5c");
+						$(".coding-center").fadeIn(500, function(){
+							$(".coding-center").css("display", "inline-block");
+						});
+					});
+					$(".volunteering").click(function(){
+						$(".menu").css("background-color", "darkgreen");
+						$(".jumbo").not($( ".volunteering-center" )).css("display", "none");
+						$(".volunteering").css("background-color", "#209c5c");
+						$(".volunteering-center").fadeIn(500, function(){
+							$(".volunteering-center").css("display", "inline-block");
+						});
+					});
+					$(".contact").click(function(){
+						$(".menu").css("background-color", "darkgreen");
+						$(".jumbo").not($( ".volunteering-center" )).css("display", "none");
+						$(".contact").css("background-color", "#209c5c");
+						$(".contact-center").fadeIn(500, function(){
+							$(".contact-center").css("display", "inline-block");
+						});
+					});
+				});
+
+		</script>
+	</head>
+	<body>
+		<div class="hmp-art-1 frame-1">
+			<div class="nav">
+				<ul id="nav">
+					<li class="menu grades">Grades</li>
+					<li class="menu coding">Coding</li>
+					<li class="menu volunteering">Volunteering</li>
+					<li class="menu contact">Contact-Info</li>
+				</ul>
+			</div>
+		</div>
+		<div class="hmp-art-2 frame-2"></div>
+		<div class="hmp-art-3 frame-3"></div>
+		<div class="jumbo grades-center"></div>
+		<div class="jumbo coding-center"></div>
+		<div class="jumbo volunteering-center"></div>
+		<div class="jumbo contact-center"></div>
+		</div>
+	</body>
 </html>
